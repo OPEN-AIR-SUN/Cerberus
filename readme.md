@@ -1,21 +1,9 @@
 # Cerberus Transformer: Joint Semantic, Affordance and Attribute Parsing
 
 
-[**Paper**](https://arxiv.org/abs/2109.05566) 
+[**Paper**]() 
 
-![teaser](doc/teaser.PNG)
 
-![sup](doc/sup1.PNG)
-
-![sup](doc/sup2.PNG)
-
-![sup](doc/sup3.PNG)
-
-![sup](doc/sup4.PNG)
-
-![sup](doc/sup5.PNG)
-
-![sup](doc/sup6.png)
 
 
 ## Introduction
@@ -27,30 +15,13 @@ Multi-task indoor scene understanding is widely considered as an intriguing form
 
 If you find our work useful in your research, please consider citing:
 
-    @article{chen2021pq,
-    title={PQ-Transformer: Jointly Parsing 3D Objects and Layouts from Point Clouds},
-    author={Chen, Xiaoxue and Zhao, Hao and Zhou, Guyue and Zhang, Ya-Qin},
-    journal={arXiv preprint arXiv:2109.05566},
-    year={2021}
-    }
 
 
 ## Installation
 
 ### Requirements
     
-    python =3.6
-    CUDA>=10.1
-    Pytorch>=1.3
-    matplotlib
-    opencv-python
-    tensorboard
-    termcolor
-    plyfile
-    trimesh>=2.35.39
-    networkx>=2.2
-    scripy
-    
+
 
 ### Data preparation
 
@@ -60,29 +31,23 @@ If you find our work useful in your research, please consider citing:
 
 #### Semantic
 
-For 3D detection on ScanNet, follow the [README](https://github.com/facebookresearch/votenet/blob/master/scannet/README.md) under the `scannet` folder.
 
-For layout estimation on ScanNet, download the sceneCAD layout dataset from 
-[HERE](http://kaldir.vc.in.tum.de/scannet_planes).  Unzip it into `/path/to/project/scannet/`.
 
 ## Run Pre-trained Model
 
-You can download pre-trained model [HERE](https://drive.google.com/file/d/1yawlsprl-bhRotpZS29inQo4f4ZSZSY-/view?usp=sharing).
-Move the file to the project root path (`/path/to/project/pretrained_model`) and then evaluate the model with:
-
-    CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 eval.py --checkpoint_path /path/to/project/pretrained_model/ckpt_epoch_last.pth
-
+You can download pre-trained model [HERE]().
 
 
 ## Training and evaluating
 
 To train a Cerberus on NYUd2 with a single GPU:
 
-    CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 train.py  --log_dir log/[log_dir] --pc_loss
+    CUDA_VISIBLE_DEVICES=0 python main.py train -d [dataset_path] -s 512 --batch-size 2 --random-scale 2 --random-rotate 10 --epochs 200 --lr 0.007 --momentum 0.9 --lr-mode poly --workers 12 
+
     
 To test the trained model with its checkpoint:
 
-    CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 eval.py  --log_dir [log_dir] --checkpoint_path [checkpoint_path]
+    CUDA_VISIBLE_DEVICES=0 python main.py test -d [dataset_path]  -s 512 --resume model_best.pth.tar --phase val --batch-size 1 --ms --workers 10
 
 
 
