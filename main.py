@@ -32,8 +32,8 @@ from min_norm_solvers import MinNormSolver
 
 import drn
 import data_transforms as transforms
-from dpt.models import DPTSegmentationModel, DPTSegmentationModelMultiHead, TransferNet, CerberusSegmentationModelMultiHead
-from dpt.transforms import PrepareForNet
+from model.models import DPTSegmentationModel, DPTSegmentationModelMultiHead, TransferNet, CerberusSegmentationModelMultiHead
+from model.transforms import PrepareForNet
 
 
 try:
