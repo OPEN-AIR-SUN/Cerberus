@@ -6,7 +6,7 @@
 
 
 ![qual](doc/qualitative.PNG)
-![attn](doc/attention.PNG)
+![attn](doc/attention.png)
 
 
 
