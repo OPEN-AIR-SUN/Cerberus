@@ -1,12 +1,12 @@
 # Cerberus Transformer: Joint Semantic, Affordance and Attribute Parsing
 
 
-[**Paper**]() 
+[**Paper**](https://arxiv.org/pdf/2111.12608.pdf) 
 
 
-## Attention Map
 
-![attn](doc/attn.pdf)
+![qual](doc/qualitative.PNG)
+![attn](doc/attention.PNG)
 
 
 
@@ -20,7 +20,14 @@ Multi-task indoor scene understanding is widely considered as an intriguing form
 
 If you find our work useful in your research, please consider citing:
 
-
+    @misc{chen2021cerberus,
+        title={Cerberus Transformer: Joint Semantic, Affordance and Attribute Parsing}, 
+        author={Xiaoxue Chen and Tianyu Liu and Hao Zhao and Guyue Zhou and Ya-Qin Zhang},
+        year={2021},
+        eprint={2111.12608},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
 
 ## Installation
 
