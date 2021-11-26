@@ -4,6 +4,11 @@
 [**Paper**]() 
 
 
+## Attention Map
+
+![attn](doc/attn.pdf)
+
+
 
 
 ## Introduction
@@ -21,7 +26,10 @@ If you find our work useful in your research, please consider citing:
 
 ### Requirements
     
-
+    torch==1.8.1
+    torchvision==0.9.1
+    opencv-python==4.5.2
+    timm==0.4.5
 
 ### Data preparation
 
@@ -35,7 +43,7 @@ If you find our work useful in your research, please consider citing:
 
 ## Run Pre-trained Model
 
-You can download pre-trained model [HERE]().
+You can download pre-trained Cerberus model [HERE](https://drive.google.com/file/d/1AX_UYa44uW_aPOSykO06GMcfo8mHDRx6/view?usp=sharing).
 
 
 ## Training and evaluating
