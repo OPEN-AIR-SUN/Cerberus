@@ -45,7 +45,7 @@ Then, prepare NYUd2 dataset or your own dataset.
 NYUd2 dataset should have the following hierachy:
 
 ```
-dataset_root
+dataset_path
 |   info.json
 |   train_images.txt
 |   train_labels.txt
@@ -78,13 +78,13 @@ dataset_root
 
 #### Attribute
 
-Download [HERE](https://drive.google.com/file/d/13s5JUwj8_QFuKGhxElsA4gaIlfll5OEI/view?usp=sharing)
+Download prepocessed attribute dataset [HERE](https://drive.google.com/file/d/13s5JUwj8_QFuKGhxElsA4gaIlfll5OEI/view?usp=sharing)
 #### Affordance
 
-Download [HERE](https://drive.google.com/file/d/1LVR5Og0EQf1z_DoTPfCQt_gVVe46OcYt/view?usp=sharing)
+Download prepocessed affordance dataset [HERE](https://drive.google.com/file/d/1LVR5Og0EQf1z_DoTPfCQt_gVVe46OcYt/view?usp=sharing)
 #### Semantic
 
-Download [HERE](https://drive.google.com/file/d/1Hg1H37i0QOzNojpgLlh7bx1SgnLlgmNI/view?usp=sharing)
+Download prepocessed semantic dataset [HERE](https://drive.google.com/file/d/1Hg1H37i0QOzNojpgLlh7bx1SgnLlgmNI/view?usp=sharing)
 
 ## Run Pre-trained Model
 
