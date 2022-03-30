@@ -1,7 +1,7 @@
 # Cerberus Transformer: Joint Semantic, Affordance and Attribute Parsing
 
 
-[**Paper**](https://arxiv.org/pdf/2111.12608.pdf) 
+[**Paper**](https://arxiv.org/pdf/2111.12608.pdf) Accepted to CVPR 2022.
 
 
 
