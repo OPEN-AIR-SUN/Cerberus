@@ -36,7 +36,7 @@ If you find our work useful in your research, please consider citing:
     torch==1.8.1
     torchvision==0.9.1
     opencv-python==4.5.2
-    timm==0.4.5
+    timm==0.5.4
 
 ### Data preparation
 
