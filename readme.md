@@ -78,13 +78,13 @@ dataset_path
 
 #### Attribute
 
-Download prepocessed attribute dataset [HERE](https://drive.google.com/file/d/13s5JUwj8_QFuKGhxElsA4gaIlfll5OEI/view?usp=sharing)
+Download prepocessed attribute dataset [HERE](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tliubk_connect_ust_hk/EZg_fZbbE-dCsTNmQBONXS8BBpVXgCKar40gR-oPxLxd4A?e=gtzIr4)
 #### Affordance
 
-Download prepocessed affordance dataset [HERE](https://drive.google.com/file/d/1LVR5Og0EQf1z_DoTPfCQt_gVVe46OcYt/view?usp=sharing)
+Download prepocessed affordance dataset [HERE](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tliubk_connect_ust_hk/EX8JG1CKOHpErmO8yFmsqVgBTNelGiPve7Rg0nhq2a5pBA?e=okc2aZ)
 #### Semantic
 
-Download prepocessed semantic dataset [HERE](https://drive.google.com/file/d/1Hg1H37i0QOzNojpgLlh7bx1SgnLlgmNI/view?usp=sharing)
+Download prepocessed semantic dataset [HERE](https://hkustconnect-my.sharepoint.com/:u:/g/personal/tliubk_connect_ust_hk/EZVsDb7POBpPjP40Uu15uj0BRRArRhnuPI922gwIuOOkrQ?e=2Jpdhm)
 
 ## Run Pre-trained Model
 
